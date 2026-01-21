@@ -32,7 +32,21 @@ const App = () => {
   return (
     <main>
       <div className="container">
-        <h1 className="title">Todo App</h1>
+<div>
+  <img
+    src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+    alt="Girl from Unsplash"
+    className="w-140 h-140 md:w-264 md:h-264 rounded-full border-4 border-indigo-500 shadow-lg overflow-hidden flex items-center justify-center bg-gray-200"
+    // style={{
+    //   width: "100%",
+    //   maxWidth: "300px",
+    //   borderRadius: "12px",
+    //   boxShadow: "0 8px 20px rgba(0,0,0,0.2)"
+    // }}
+  />
+</div>
+
+        <h1 className="title text-red-500">Todo App Made by Noorazam</h1>
 
         <div className="input_holder">
           <input
